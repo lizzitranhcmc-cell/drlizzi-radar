@@ -1,110 +1,118 @@
 {
- "date": "2026-11-27",
+ "date": "2026-11-28",
  "status": "da-loc",
  "model": "gemini-3.1-flash-lite",
  "ideas": [
   {
-   "idea": "Rụng tóc sau sinh: Khi nào nên dùng thuốc, khi nào cần can thiệp?",
-   "why": "Chủ đề rụng tóc đang rất nóng với từ khóa 'nguyên nhân gây rụng tóc ở nữ' tăng +350%. Người xem thường hỏi: 'Tôi bị rụng tóc sau sinh, làm sao để tóc mọc lại nhanh nhất?'",
-   "format": "Explainer",
+   "idea": "Minoxidil dạng uống hay bôi: Cái nào hiệu quả hơn?",
+   "why": "Google Trends VN ghi nhận từ khóa 'oral minoxidil' tăng 450% và 'topical minoxidil' tăng 110%. Người xem đang rất bối rối về cách sử dụng thuốc điều trị rụng tóc.",
+   "format": "Myth hay fact",
    "topic": "Rụng tóc",
    "priority": 0,
    "links": [
-    "https://www.youtube.com/watch?v=XmMGrM_09kk",
-    "https://www.youtube.com/watch?v=0jXuR3HIZBk"
-   ],
-   "source": "Google Trends VN, YouTube nước ngoài"
-  },
-  {
-   "idea": "Tiêm filler môi: Bao lâu thì vào form chuẩn đẹp?",
-   "why": "Từ khóa 'tiêm filler môi bao lâu thì vào form' đang tăng +140% trên Google. Khách hàng cần thông tin thực tế về thời gian hồi phục thay vì quảng cáo thổi phồng.",
-   "format": "Hỏi – chỉ đáp án",
-   "topic": "Trẻ hóa, thủ thuật",
-   "priority": 0,
-   "links": [
-    "https://www.youtube.com/watch?v=D-MpE20RoNU"
+    "https://www.youtube.com/watch?v=RIWSjGZrpmA",
+    "https://www.youtube.com/watch?v=iWDFUX3thls"
    ],
    "source": "Google Trends VN"
   },
   {
-   "idea": "Sẹo mụn lâu năm: Tại sao lăn kim không phải là lựa chọn duy nhất?",
-   "why": "Chủ đề sẹo mụn có video đạt 284.987 view/ngày. Người xem thường thắc mắc: 'Tại sao làm thủ thuật xong da vẫn không cải thiện rõ rệt?'",
-   "format": "Myth hay fact",
-   "topic": "Mụn, sẹo",
-   "priority": 1,
+   "idea": "Rụng tóc nhiều: Khi nào cần gặp bác sĩ ngay?",
+   "why": "Dựa trên câu hỏi 'Sir what about topical solution?' (10 likes) từ video về tác dụng phụ của thuốc, người xem rất lo lắng về việc dùng thuốc điều trị rụng tóc mà không có chỉ định.",
+   "format": "Trả lời bình luận",
+   "topic": "Rụng tóc",
+   "priority": 0,
    "links": [
-    "https://www.youtube.com/watch?v=izyL535xKRQ",
-    "https://www.youtube.com/watch?v=V05NVkMwbQ4"
+    "https://www.youtube.com/watch?v=nxhHfVWsMGU"
    ],
    "source": "YouTube nước ngoài"
   },
   {
-   "idea": "Tiêm botox gọn hàm: Sự thật về giá và rủi ro",
-   "why": "Từ khóa 'tiêm botox gọn hàm giá bao nhiêu' tăng +160%. Người xem cần bác sĩ cảnh báo rủi ro thay vì chỉ nhìn vào giá rẻ.",
-   "format": "FACTCHECK",
+   "idea": "Kem trị nám: Đừng bôi mù quáng nếu chưa biết điều này",
+   "why": "Video về kem trị nám có 222.010 view chỉ sau 2 ngày. Nhiều bình luận như 'Como se llama la Crema?' (Tên kem là gì?) cho thấy người xem dễ tin vào các sản phẩm không rõ nguồn gốc.",
+   "format": "Trả lời bình luận",
+   "topic": "Nám, sạm",
+   "priority": 0,
+   "links": [
+    "https://www.youtube.com/watch?v=_45Xb3GPO7U"
+   ],
+   "source": "YouTube nước ngoài"
+  },
+  {
+   "idea": "Tiêm filler mũi: An toàn hay rủi ro tiềm ẩn?",
+   "why": "Google Trends VN ghi nhận từ khóa 'tiêm filler mũi' tăng 160% và 'tiêm filler có an toàn không' tăng 100%. Đây là chủ đề nóng cần bác sĩ đính chính.",
+   "format": "Explainer",
    "topic": "Trẻ hóa, thủ thuật",
    "priority": 0,
    "links": [
-    "https://www.youtube.com/watch?v=D-MpE20RoNU"
+    "https://www.youtube.com/watch?v=CmSiVQDHYDw"
    ],
    "source": "Google Trends VN"
   },
   {
-   "idea": "Trị nám tại nhà: Tại sao lạm dụng hoạt chất là sai lầm?",
-   "why": "Video TikTok về chủ đề này đạt 418.244 view. Người xem rất lo lắng về việc điều trị sai cách dẫn đến nám đậm hơn.",
-   "format": "Kể case",
-   "topic": "Nám, sạm",
-   "priority": 0,
+   "idea": "Skinbooster: Tiêm xong da đẹp ngay hay cần thời gian?",
+   "why": "Video về Skinbooster có câu hỏi 'How do you guys look now? Could you tell a difference?' (5 likes). Người xem muốn biết sự thay đổi thực tế sau khi tiêm thay vì tin vào quảng cáo.",
+   "format": "Trả lời bình luận",
+   "topic": "Trẻ hóa, thủ thuật",
+   "priority": 1,
    "links": [
-    "https://www.tiktok.com/@drletrang_dalieu/video/7682338317085510920"
+    "https://www.youtube.com/watch?v=Gus_j-pxsZ0"
    ],
-   "source": "TikTok"
+   "source": "YouTube VN"
   },
   {
-   "idea": "Minoxidil 3% và Finasteride: Dùng sao cho đúng phác đồ?",
-   "why": "Từ khóa 'minoxidil 3%' tăng đột biến +74.850% và 'finasteride 1mg' tăng +100%. Người dùng đang tự ý sử dụng mà không có chỉ định.",
+   "idea": "Mụn sưng to ở nách: Có phải chỉ là mụn thông thường?",
+   "why": "Video về áp xe nách có 64.422 view/11 ngày. Câu hỏi 'What causes under arm abscesses like this?' (3 likes) cho thấy nhu cầu hiểu về bệnh lý da liễu thay vì chỉ xem giải trí.",
+   "format": "Trả lời bình luận",
+   "topic": "Mụn, sẹo",
+   "priority": 1,
+   "links": [
+    "https://www.youtube.com/watch?v=Lfgh817AyBA"
+   ],
+   "source": "YouTube VN"
+  },
+  {
+   "idea": "Da chảy xệ: Tại sao bôi kem không thể thay thế thủ thuật?",
+   "why": "Video 'Fastest Way to Fix Sagging Jowls' có 69.730 view/13 ngày. Người xem quan tâm đến các lớp cấu trúc da và lý do tại sao kem bôi không hiệu quả với da chùng nhão.",
+   "format": "Myth hay fact",
+   "topic": "Trẻ hóa, thủ thuật",
+   "priority": 0,
+   "links": [
+    "https://www.youtube.com/watch?v=rioxZkKjEbs"
+   ],
+   "source": "YouTube nước ngoài"
+  },
+  {
+   "idea": "Rụng tóc từng mảng: Đừng tự chữa tại nhà",
+   "why": "Google Trends VN cho thấy từ khóa 'rụng tóc từng mảng' tăng 110%. Cần cảnh báo về việc tự ý dùng thuốc không rõ nguồn gốc tại nhà.",
    "format": "Playbook",
    "topic": "Rụng tóc",
-   "priority": 0,
+   "priority": 1,
    "links": [
-    "https://www.youtube.com/watch?v=_uOzhI9IVzc"
+    "https://www.youtube.com/watch?v=dc53gWIKYWA"
    ],
    "source": "Google Trends VN"
   },
   {
-   "idea": "Mụn thịt quanh mắt: Có nên tự xử lý tại nhà?",
-   "why": "Từ khóa 'cách trị mụn thịt ở mắt' tăng +140%. Đây là vấn đề thẩm mỹ phổ biến mà nhiều người đang áp dụng sai cách gây tổn thương da.",
-   "format": "Myth hay fact",
+   "idea": "Trị mụn cấp tốc sau 1 đêm: Có thật hay chỉ là quảng cáo?",
+   "why": "Google Trends VN ghi nhận từ khóa 'trị mụn cấp tốc sau 1 đêm' tăng 250%. Cần đính chính thông tin khoa học để tránh làm tổn thương da.",
+   "format": "FACTCHECK",
    "topic": "Mụn, sẹo",
-   "priority": 1,
+   "priority": 0,
    "links": [
-    "https://www.youtube.com/watch?v=yiJFw7ZaWYw"
+    "https://www.youtube.com/watch?v=6rd4EgEFD5Y"
    ],
-   "source": "Google Trends VN, YouTube nước ngoài"
+   "source": "Google Trends VN"
   },
   {
-   "idea": "Trị nám không xâm lấn: Hiệu quả thực tế đến đâu?",
-   "why": "Các video về trị nám không laser đạt trung bình 33.691 view. Khán giả hỏi: 'Trị nám không xâm lấn, không dùng laser có thật sự hiệu quả?'",
-   "format": "Reaction",
-   "topic": "Nám, sạm",
-   "priority": 1,
-   "links": [
-    "https://www.tiktok.com/@oanhkimnguyen79/video/7703366254450461972",
-    "https://www.tiktok.com/@oanhkimnguyen79/video/7701008764853357845"
-   ],
-   "source": "TikTok"
-  },
-  {
-   "idea": "Da chảy xệ: Khi nào cần đến máy nâng cơ?",
-   "why": "Chủ đề nâng cơ/trẻ hóa có video đạt 43.371 view/ngày. Người xem thường hỏi về các phương pháp tại nhà liệu có thay thế được thủ thuật chuyên sâu.",
-   "format": "Chấm điểm /10",
+   "idea": "Laser Toning: Công nghệ này thực sự làm gì cho da?",
+   "why": "Google Trends VN ghi nhận từ khóa 'laser toning là gì' tăng 60%. Người dùng đang tìm hiểu về công nghệ này nhưng thiếu thông tin từ bác sĩ.",
+   "format": "Explainer",
    "topic": "Trẻ hóa, thủ thuật",
    "priority": 1,
    "links": [
-    "https://www.youtube.com/watch?v=pXLco6bvkaA",
-    "https://www.youtube.com/watch?v=eJeYyFfJcog"
+    "https://www.youtube.com/watch?v=w-AByqKSr7o"
    ],
-   "source": "YouTube nước ngoài"
+   "source": "Google Trends VN"
   }
  ]
 }

@@ -1,0 +1,118 @@
+{
+ "date": "2026-11-28",
+ "status": "da-loc",
+ "model": "gemini-3.1-flash-lite",
+ "ideas": [
+  {
+   "idea": "Minoxidil dạng uống hay bôi: Cái nào hiệu quả hơn?",
+   "why": "Google Trends VN ghi nhận từ khóa 'oral minoxidil' tăng 450% và 'topical minoxidil' tăng 110%. Người xem đang rất bối rối về cách sử dụng thuốc điều trị rụng tóc.",
+   "format": "Myth hay fact",
+   "topic": "Rụng tóc",
+   "priority": 0,
+   "links": [
+    "https://www.youtube.com/watch?v=RIWSjGZrpmA",
+    "https://www.youtube.com/watch?v=iWDFUX3thls"
+   ],
+   "source": "Google Trends VN"
+  },
+  {
+   "idea": "Rụng tóc nhiều: Khi nào cần gặp bác sĩ ngay?",
+   "why": "Dựa trên câu hỏi 'Sir what about topical solution?' (10 likes) từ video về tác dụng phụ của thuốc, người xem rất lo lắng về việc dùng thuốc điều trị rụng tóc mà không có chỉ định.",
+   "format": "Trả lời bình luận",
+   "topic": "Rụng tóc",
+   "priority": 0,
+   "links": [
+    "https://www.youtube.com/watch?v=nxhHfVWsMGU"
+   ],
+   "source": "YouTube nước ngoài"
+  },
+  {
+   "idea": "Kem trị nám: Đừng bôi mù quáng nếu chưa biết điều này",
+   "why": "Video về kem trị nám có 222.010 view chỉ sau 2 ngày. Nhiều bình luận như 'Como se llama la Crema?' (Tên kem là gì?) cho thấy người xem dễ tin vào các sản phẩm không rõ nguồn gốc.",
+   "format": "Trả lời bình luận",
+   "topic": "Nám, sạm",
+   "priority": 0,
+   "links": [
+    "https://www.youtube.com/watch?v=_45Xb3GPO7U"
+   ],
+   "source": "YouTube nước ngoài"
+  },
+  {
+   "idea": "Tiêm filler mũi: An toàn hay rủi ro tiềm ẩn?",
+   "why": "Google Trends VN ghi nhận từ khóa 'tiêm filler mũi' tăng 160% và 'tiêm filler có an toàn không' tăng 100%. Đây là chủ đề nóng cần bác sĩ đính chính.",
+   "format": "Explainer",
+   "topic": "Trẻ hóa, thủ thuật",
+   "priority": 0,
+   "links": [
+    "https://www.youtube.com/watch?v=CmSiVQDHYDw"
+   ],
+   "source": "Google Trends VN"
+  },
+  {
+   "idea": "Skinbooster: Tiêm xong da đẹp ngay hay cần thời gian?",
+   "why": "Video về Skinbooster có câu hỏi 'How do you guys look now? Could you tell a difference?' (5 likes). Người xem muốn biết sự thay đổi thực tế sau khi tiêm thay vì tin vào quảng cáo.",
+   "format": "Trả lời bình luận",
+   "topic": "Trẻ hóa, thủ thuật",
+   "priority": 1,
+   "links": [
+    "https://www.youtube.com/watch?v=Gus_j-pxsZ0"
+   ],
+   "source": "YouTube VN"
+  },
+  {
+   "idea": "Mụn sưng to ở nách: Có phải chỉ là mụn thông thường?",
+   "why": "Video về áp xe nách có 64.422 view/11 ngày. Câu hỏi 'What causes under arm abscesses like this?' (3 likes) cho thấy nhu cầu hiểu về bệnh lý da liễu thay vì chỉ xem giải trí.",
+   "format": "Trả lời bình luận",
+   "topic": "Mụn, sẹo",
+   "priority": 1,
+   "links": [
+    "https://www.youtube.com/watch?v=Lfgh817AyBA"
+   ],
+   "source": "YouTube VN"
+  },
+  {
+   "idea": "Da chảy xệ: Tại sao bôi kem không thể thay thế thủ thuật?",
+   "why": "Video 'Fastest Way to Fix Sagging Jowls' có 69.730 view/13 ngày. Người xem quan tâm đến các lớp cấu trúc da và lý do tại sao kem bôi không hiệu quả với da chùng nhão.",
+   "format": "Myth hay fact",
+   "topic": "Trẻ hóa, thủ thuật",
+   "priority": 0,
+   "links": [
+    "https://www.youtube.com/watch?v=rioxZkKjEbs"
+   ],
+   "source": "YouTube nước ngoài"
+  },
+  {
+   "idea": "Rụng tóc từng mảng: Đừng tự chữa tại nhà",
+   "why": "Google Trends VN cho thấy từ khóa 'rụng tóc từng mảng' tăng 110%. Cần cảnh báo về việc tự ý dùng thuốc không rõ nguồn gốc tại nhà.",
+   "format": "Playbook",
+   "topic": "Rụng tóc",
+   "priority": 1,
+   "links": [
+    "https://www.youtube.com/watch?v=dc53gWIKYWA"
+   ],
+   "source": "Google Trends VN"
+  },
+  {
+   "idea": "Trị mụn cấp tốc sau 1 đêm: Có thật hay chỉ là quảng cáo?",
+   "why": "Google Trends VN ghi nhận từ khóa 'trị mụn cấp tốc sau 1 đêm' tăng 250%. Cần đính chính thông tin khoa học để tránh làm tổn thương da.",
+   "format": "FACTCHECK",
+   "topic": "Mụn, sẹo",
+   "priority": 0,
+   "links": [
+    "https://www.youtube.com/watch?v=6rd4EgEFD5Y"
+   ],
+   "source": "Google Trends VN"
+  },
+  {
+   "idea": "Laser Toning: Công nghệ này thực sự làm gì cho da?",
+   "why": "Google Trends VN ghi nhận từ khóa 'laser toning là gì' tăng 60%. Người dùng đang tìm hiểu về công nghệ này nhưng thiếu thông tin từ bác sĩ.",
+   "format": "Explainer",
+   "topic": "Trẻ hóa, thủ thuật",
+   "priority": 1,
+   "links": [
+    "https://www.youtube.com/watch?v=w-AByqKSr7o"
+   ],
+   "source": "Google Trends VN"
+  }
+ ]
+}

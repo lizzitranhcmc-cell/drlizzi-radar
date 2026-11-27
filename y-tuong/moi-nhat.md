@@ -1,46 +1,46 @@
 # Ý tưởng radar ngày 2026-11-27
 
-## 1. Minoxidil có phải dùng cả đời? Sự thật bác sĩ cần nói
-- **Ưu tiên:** Cao · **Chủ đề:** Rụng tóc · **Format:** FACTCHECK
-- **Vì sao:** Chủ đề Minoxidil đang cực hot với hàng trăm nghìn lượt xem mỗi ngày. Người xem lo lắng về việc phụ thuộc thuốc và tác dụng phụ.
-- **Nguồn:** YouTube nước ngoài · [link 1](https://www.youtube.com/watch?v=WDXphfKM1xo) · [link 2](https://www.youtube.com/watch?v=GcI60UxpS10) · [link 3](https://www.youtube.com/watch?v=8p3k_eBdP14)
+## 1. Rụng tóc sau sinh: Khi nào nên dùng thuốc, khi nào cần can thiệp?
+- **Ưu tiên:** Cao · **Chủ đề:** Rụng tóc · **Format:** Explainer
+- **Vì sao:** Chủ đề rụng tóc đang rất nóng với từ khóa 'nguyên nhân gây rụng tóc ở nữ' tăng +350%. Người xem thường hỏi: 'Tôi bị rụng tóc sau sinh, làm sao để tóc mọc lại nhanh nhất?'
+- **Nguồn:** Google Trends VN, YouTube nước ngoài · [link 1](https://www.youtube.com/watch?v=XmMGrM_09kk) · [link 2](https://www.youtube.com/watch?v=0jXuR3HIZBk)
 
-## 2. Nám da: Tại sao bôi kem mãi không hết mà còn đen hơn?
-- **Ưu tiên:** Cao · **Chủ đề:** Nám, sạm · **Format:** Explainer
-- **Vì sao:** Nhiều video về trị nám bằng kem bôi tại nhà có view cao nhưng người xem vẫn đặt câu hỏi về việc nám tái phát hoặc nặng hơn sau khi dùng sai cách.
-- **Nguồn:** YouTube nước ngoài · [link 1](https://www.youtube.com/watch?v=0xcHivKuDwA) · [link 2](https://www.youtube.com/watch?v=xYPPY75IRH0)
+## 2. Tiêm filler môi: Bao lâu thì vào form chuẩn đẹp?
+- **Ưu tiên:** Cao · **Chủ đề:** Trẻ hóa, thủ thuật · **Format:** Hỏi – chỉ đáp án
+- **Vì sao:** Từ khóa 'tiêm filler môi bao lâu thì vào form' đang tăng +140% trên Google. Khách hàng cần thông tin thực tế về thời gian hồi phục thay vì quảng cáo thổi phồng.
+- **Nguồn:** Google Trends VN · [link 1](https://www.youtube.com/watch?v=D-MpE20RoNU)
 
-## 3. Tiêm botox, filler: Những rủi ro cần biết trước khi làm
-- **Ưu tiên:** Cao · **Chủ đề:** Trẻ hóa, thủ thuật · **Format:** Playbook
-- **Vì sao:** Khán giả quan tâm đến các thủ thuật tiêm nhưng lo ngại về biến chứng, cần bác sĩ chuyên môn tư vấn trung thực.
-- **Nguồn:** YouTube VN · [link 1](https://www.youtube.com/watch?v=WuynvK96nHk)
+## 3. Tiêm botox gọn hàm: Sự thật về giá và rủi ro
+- **Ưu tiên:** Cao · **Chủ đề:** Trẻ hóa, thủ thuật · **Format:** FACTCHECK
+- **Vì sao:** Từ khóa 'tiêm botox gọn hàm giá bao nhiêu' tăng +160%. Người xem cần bác sĩ cảnh báo rủi ro thay vì chỉ nhìn vào giá rẻ.
+- **Nguồn:** Google Trends VN · [link 1](https://www.youtube.com/watch?v=D-MpE20RoNU)
 
-## 4. Trị nám bằng Laser: 450k liệu có an toàn?
-- **Ưu tiên:** Cao · **Chủ đề:** Nám, sạm · **Format:** Reaction
-- **Vì sao:** Nhiều quảng cáo giá rẻ gây hiểu lầm. Bác sĩ cần cảnh báo về rủi ro khi chọn cơ sở không uy tín.
-- **Nguồn:** YouTube VN · [link 1](https://www.youtube.com/watch?v=uUFxvMxjvXA)
+## 4. Trị nám tại nhà: Tại sao lạm dụng hoạt chất là sai lầm?
+- **Ưu tiên:** Cao · **Chủ đề:** Nám, sạm · **Format:** Kể case
+- **Vì sao:** Video TikTok về chủ đề này đạt 418.244 view. Người xem rất lo lắng về việc điều trị sai cách dẫn đến nám đậm hơn.
+- **Nguồn:** TikTok · [link 1](https://www.tiktok.com/@drletrang_dalieu/video/7682338317085510920)
 
-## 5. Phụ nữ hói đầu: Minoxidil hay can thiệp thủ thuật?
-- **Ưu tiên:** Vừa · **Chủ đề:** Rụng tóc · **Format:** Trả lời bình luận
-- **Vì sao:** Khán giả nữ đang tìm kiếm giải pháp cho hói đầu di truyền/sau sinh, quan tâm đến việc kết hợp thuốc và thủ thuật.
-- **Nguồn:** YouTube nước ngoài · [link 1](https://www.youtube.com/watch?v=WDXphfKM1xo)
+## 5. Minoxidil 3% và Finasteride: Dùng sao cho đúng phác đồ?
+- **Ưu tiên:** Cao · **Chủ đề:** Rụng tóc · **Format:** Playbook
+- **Vì sao:** Từ khóa 'minoxidil 3%' tăng đột biến +74.850% và 'finasteride 1mg' tăng +100%. Người dùng đang tự ý sử dụng mà không có chỉ định.
+- **Nguồn:** Google Trends VN · [link 1](https://www.youtube.com/watch?v=_uOzhI9IVzc)
 
-## 6. Thermage có thực sự làm da săn chắc như lời đồn?
-- **Ưu tiên:** Vừa · **Chủ đề:** Trẻ hóa, thủ thuật · **Format:** Myth hay fact
-- **Vì sao:** Các video về nâng cơ, trẻ hóa luôn có sự quan tâm ổn định. Khán giả cần thông tin khoa học về hiệu quả thực tế của máy nâng cơ.
-- **Nguồn:** YouTube nước ngoài · [link 1](https://www.youtube.com/watch?v=2P52VSO7MrU) · [link 2](https://www.youtube.com/watch?v=2QLHLMUhZjo)
+## 6. Sẹo mụn lâu năm: Tại sao lăn kim không phải là lựa chọn duy nhất?
+- **Ưu tiên:** Vừa · **Chủ đề:** Mụn, sẹo · **Format:** Myth hay fact
+- **Vì sao:** Chủ đề sẹo mụn có video đạt 284.987 view/ngày. Người xem thường thắc mắc: 'Tại sao làm thủ thuật xong da vẫn không cải thiện rõ rệt?'
+- **Nguồn:** YouTube nước ngoài · [link 1](https://www.youtube.com/watch?v=izyL535xKRQ) · [link 2](https://www.youtube.com/watch?v=V05NVkMwbQ4)
 
-## 7. Mụn u nang, áp xe: Khi nào cần đến bác sĩ?
-- **Ưu tiên:** Vừa · **Chủ đề:** Mụn, sẹo · **Format:** Kể case
-- **Vì sao:** Các video về xử lý mụn viêm, áp xe có lượt xem cao đột biến, cho thấy nhu cầu tìm hiểu về quy trình xử lý y khoa an toàn.
-- **Nguồn:** YouTube VN · [link 1](https://www.youtube.com/watch?v=BiKvNHeus8M) · [link 2](https://www.youtube.com/watch?v=xuqoVGT1-l4)
+## 7. Mụn thịt quanh mắt: Có nên tự xử lý tại nhà?
+- **Ưu tiên:** Vừa · **Chủ đề:** Mụn, sẹo · **Format:** Myth hay fact
+- **Vì sao:** Từ khóa 'cách trị mụn thịt ở mắt' tăng +140%. Đây là vấn đề thẩm mỹ phổ biến mà nhiều người đang áp dụng sai cách gây tổn thương da.
+- **Nguồn:** Google Trends VN, YouTube nước ngoài · [link 1](https://www.youtube.com/watch?v=yiJFw7ZaWYw)
 
-## 8. Dùng Minoxidil kết hợp lăn kim: Nên hay không?
-- **Ưu tiên:** Vừa · **Chủ đề:** Rụng tóc · **Format:** Hỏi – chỉ đáp án
-- **Vì sao:** Người xem thắc mắc về quy trình kết hợp giữa thuốc và thủ thuật tại nhà/phòng khám.
-- **Nguồn:** YouTube nước ngoài · [link 1](https://www.youtube.com/watch?v=WDXphfKM1xo) · [link 2](https://www.youtube.com/watch?v=GcI60UxpS10)
+## 8. Trị nám không xâm lấn: Hiệu quả thực tế đến đâu?
+- **Ưu tiên:** Vừa · **Chủ đề:** Nám, sạm · **Format:** Reaction
+- **Vì sao:** Các video về trị nám không laser đạt trung bình 33.691 view. Khán giả hỏi: 'Trị nám không xâm lấn, không dùng laser có thật sự hiệu quả?'
+- **Nguồn:** TikTok · [link 1](https://www.tiktok.com/@oanhkimnguyen79/video/7703366254450461972) · [link 2](https://www.tiktok.com/@oanhkimnguyen79/video/7701008764853357845)
 
-## 9. Nám lâu năm: Tại sao phác đồ cá nhân hóa là bắt buộc?
-- **Ưu tiên:** Vừa · **Chủ đề:** Nám, sạm · **Format:** Explainer
-- **Vì sao:** Khách hàng U40 thường gặp tình trạng nám dai dẳng, cần giải thích về tầm quan trọng của việc cá nhân hóa phác đồ thay vì dùng chung một loại kem.
-- **Nguồn:** YouTube VN · [link 1](https://www.youtube.com/watch?v=L2QJtnb9TDs)
+## 9. Da chảy xệ: Khi nào cần đến máy nâng cơ?
+- **Ưu tiên:** Vừa · **Chủ đề:** Trẻ hóa, thủ thuật · **Format:** Chấm điểm /10
+- **Vì sao:** Chủ đề nâng cơ/trẻ hóa có video đạt 43.371 view/ngày. Người xem thường hỏi về các phương pháp tại nhà liệu có thay thế được thủ thuật chuyên sâu.
+- **Nguồn:** YouTube nước ngoài · [link 1](https://www.youtube.com/watch?v=pXLco6bvkaA) · [link 2](https://www.youtube.com/watch?v=eJeYyFfJcog)

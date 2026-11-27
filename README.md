@@ -38,7 +38,7 @@ Vào tab **Actions → Radar y tuong → Run workflow**.
 - **Đổi model Gemini:** vào Settings → Secrets and variables → Actions → Variables, thêm `GEMINI_MODEL`.
 
 ## Giới hạn miễn phí
-- **YouTube:** khoảng 10.000 đơn vị mỗi ngày. Radar dùng khoảng 3.100 (30 lượt tìm).
+- **YouTube:** khoảng 10.000 đơn vị mỗi ngày. Radar dùng khoảng 6.100 (60 lượt tìm × 100, cộng thống kê và bình luận).
 - **Gemini:** dùng hạn mức miễn phí. Hết hạn mức thì hôm đó ghi danh sách thô, đánh dấu "chưa lọc".
 - **TikNeuron:** gói miễn phí 20 credit. Radar dùng tối đa 18, mỗi thứ Hai 1 credit, và tự dừng khi hết hoặc bị từ chối.
 - **GitHub Actions:** repo công khai chạy miễn phí.

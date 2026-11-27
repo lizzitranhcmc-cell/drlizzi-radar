@@ -1,0 +1,112 @@
+{
+ "date": "2026-11-27",
+ "status": "da-loc",
+ "model": "gemini-3.1-flash-lite",
+ "ideas": [
+  {
+   "idea": "Minoxidil có phải dùng cả đời? Sự thật bác sĩ cần nói",
+   "why": "Chủ đề Minoxidil đang cực hot với hàng trăm nghìn lượt xem mỗi ngày. Người xem lo lắng về việc phụ thuộc thuốc và tác dụng phụ.",
+   "format": "FACTCHECK",
+   "topic": "Rụng tóc",
+   "priority": 0,
+   "links": [
+    "https://www.youtube.com/watch?v=WDXphfKM1xo",
+    "https://www.youtube.com/watch?v=GcI60UxpS10",
+    "https://www.youtube.com/watch?v=8p3k_eBdP14"
+   ],
+   "source": "YouTube nước ngoài"
+  },
+  {
+   "idea": "Nám da: Tại sao bôi kem mãi không hết mà còn đen hơn?",
+   "why": "Nhiều video về trị nám bằng kem bôi tại nhà có view cao nhưng người xem vẫn đặt câu hỏi về việc nám tái phát hoặc nặng hơn sau khi dùng sai cách.",
+   "format": "Explainer",
+   "topic": "Nám, sạm",
+   "priority": 0,
+   "links": [
+    "https://www.youtube.com/watch?v=0xcHivKuDwA",
+    "https://www.youtube.com/watch?v=xYPPY75IRH0"
+   ],
+   "source": "YouTube nước ngoài"
+  },
+  {
+   "idea": "Phụ nữ hói đầu: Minoxidil hay can thiệp thủ thuật?",
+   "why": "Khán giả nữ đang tìm kiếm giải pháp cho hói đầu di truyền/sau sinh, quan tâm đến việc kết hợp thuốc và thủ thuật.",
+   "format": "Trả lời bình luận",
+   "topic": "Rụng tóc",
+   "priority": 1,
+   "links": [
+    "https://www.youtube.com/watch?v=WDXphfKM1xo"
+   ],
+   "source": "YouTube nước ngoài"
+  },
+  {
+   "idea": "Thermage có thực sự làm da săn chắc như lời đồn?",
+   "why": "Các video về nâng cơ, trẻ hóa luôn có sự quan tâm ổn định. Khán giả cần thông tin khoa học về hiệu quả thực tế của máy nâng cơ.",
+   "format": "Myth hay fact",
+   "topic": "Trẻ hóa, thủ thuật",
+   "priority": 1,
+   "links": [
+    "https://www.youtube.com/watch?v=2P52VSO7MrU",
+    "https://www.youtube.com/watch?v=2QLHLMUhZjo"
+   ],
+   "source": "YouTube nước ngoài"
+  },
+  {
+   "idea": "Tiêm botox, filler: Những rủi ro cần biết trước khi làm",
+   "why": "Khán giả quan tâm đến các thủ thuật tiêm nhưng lo ngại về biến chứng, cần bác sĩ chuyên môn tư vấn trung thực.",
+   "format": "Playbook",
+   "topic": "Trẻ hóa, thủ thuật",
+   "priority": 0,
+   "links": [
+    "https://www.youtube.com/watch?v=WuynvK96nHk"
+   ],
+   "source": "YouTube VN"
+  },
+  {
+   "idea": "Trị nám bằng Laser: 450k liệu có an toàn?",
+   "why": "Nhiều quảng cáo giá rẻ gây hiểu lầm. Bác sĩ cần cảnh báo về rủi ro khi chọn cơ sở không uy tín.",
+   "format": "Reaction",
+   "topic": "Nám, sạm",
+   "priority": 0,
+   "links": [
+    "https://www.youtube.com/watch?v=uUFxvMxjvXA"
+   ],
+   "source": "YouTube VN"
+  },
+  {
+   "idea": "Mụn u nang, áp xe: Khi nào cần đến bác sĩ?",
+   "why": "Các video về xử lý mụn viêm, áp xe có lượt xem cao đột biến, cho thấy nhu cầu tìm hiểu về quy trình xử lý y khoa an toàn.",
+   "format": "Kể case",
+   "topic": "Mụn, sẹo",
+   "priority": 1,
+   "links": [
+    "https://www.youtube.com/watch?v=BiKvNHeus8M",
+    "https://www.youtube.com/watch?v=xuqoVGT1-l4"
+   ],
+   "source": "YouTube VN"
+  },
+  {
+   "idea": "Dùng Minoxidil kết hợp lăn kim: Nên hay không?",
+   "why": "Người xem thắc mắc về quy trình kết hợp giữa thuốc và thủ thuật tại nhà/phòng khám.",
+   "format": "Hỏi – chỉ đáp án",
+   "topic": "Rụng tóc",
+   "priority": 1,
+   "links": [
+    "https://www.youtube.com/watch?v=WDXphfKM1xo",
+    "https://www.youtube.com/watch?v=GcI60UxpS10"
+   ],
+   "source": "YouTube nước ngoài"
+  },
+  {
+   "idea": "Nám lâu năm: Tại sao phác đồ cá nhân hóa là bắt buộc?",
+   "why": "Khách hàng U40 thường gặp tình trạng nám dai dẳng, cần giải thích về tầm quan trọng của việc cá nhân hóa phác đồ thay vì dùng chung một loại kem.",
+   "format": "Explainer",
+   "topic": "Nám, sạm",
+   "priority": 1,
+   "links": [
+    "https://www.youtube.com/watch?v=L2QJtnb9TDs"
+   ],
+   "source": "YouTube VN"
+  }
+ ]
+}

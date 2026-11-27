@@ -1,0 +1,8 @@
+- **Bác sĩ:** Dr Lizzi, bác sĩ da liễu thẩm mỹ. Thế mạnh là thủ thuật: tiêm (botox, filler, skinbooster), laser, máy nâng cơ.
+- **Dịch vụ chủ lực:** rụng tóc và hói đầu; nám, sạm, tàn nhang; mụn và sẹo mụn; trẻ hóa.
+- **Khách hàng:**
+  - nữ 25–40 (dân văn phòng, mẹ bỉm): nám, lão hóa sớm, rụng tóc sau sinh, sẹo mụn;
+  - nữ 40 trở lên: trẻ hóa tự nhiên, chảy xệ, nám lâu năm, tóc mỏng.
+- **Định vị:** dựa trên bằng chứng, trung thực, không chèo kéo, cá nhân hóa phác đồ.
+- **Giọng video:** thẳng thắn, năng lượng cao, câu ngắn, bóc lời đồn và quảng cáo thổi phồng.
+- **Tránh:** hứa kết quả, chê đích danh nơi khác, gọi tên thuốc kê đơn trong video bán dịch vụ.

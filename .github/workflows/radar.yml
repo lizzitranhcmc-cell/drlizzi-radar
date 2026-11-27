@@ -1,0 +1,47 @@
+name: Radar y tuong
+
+on:
+  schedule:
+    - cron: "30 22 * * *"   # 5:30 sáng giờ Việt Nam
+  workflow_dispatch:
+    inputs:
+      tiktok:
+        description: "Chạy TikTok hôm nay (tốn 1 credit TikNeuron)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Cài pytrends
+        run: pip install -q pytrends==4.9.2 || echo "Không cài được pytrends, bỏ qua Google Trends"
+      - name: Thu thập
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          TIKNEURON_API_KEY: ${{ secrets.TIKNEURON_API_KEY }}
+        run: python radar/quet.py ${{ inputs.tiktok && '--tiktok' || '' }}
+      - name: Lọc bằng Gemini
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+        run: python radar/loc_gemini.py
+      - name: Lưu kết quả
+        run: |
+          git config user.name "drlizzi-radar"
+          git config user.email "radar@users.noreply.github.com"
+          git add y-tuong state
+          git diff --cached --quiet || git commit -m "Radar $(TZ=Asia/Ho_Chi_Minh date +%F)"
+          git push

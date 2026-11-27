@@ -79,7 +79,7 @@ NHIỆM VỤ:
 2. Gom theo VẤN ĐỀ người xem đang quan tâm (một ý tưởng có thể dựa trên nhiều video, cả VN lẫn nước ngoài).
 3. Viết 8 đến 12 ý tưởng bằng tiếng Việt, ưu tiên chủ đề gắn với thủ thuật và 4 dịch vụ chủ lực.
    - idea: tiêu đề dạng hook, xưng "mình – bạn" nếu cần, dưới 15 chữ, không hứa kết quả, không "dứt điểm/vĩnh viễn/tốt nhất".
-   - why: 1–2 câu vì sao đáng làm, dẫn số liệu có trong dữ liệu (view/ngày, % tăng, câu hỏi trong bình luận). Không bịa số.
+   - why: 1–2 câu vì sao đáng làm. BẮT BUỘC có ít nhất một con số cụ thể chép đúng từ dữ liệu (ví dụ "52.000 view/ngày", "+250% tìm kiếm"), và nếu có thì trích một câu hỏi thật trong bình luận. Không viết chung chung kiểu "hàng trăm nghìn", không bịa số.
    - format: một format gợi ý (FACTCHECK, Trả lời bình luận, Chấm điểm /10, Hỏi – chỉ đáp án, Tier list, Playbook, Myth hay fact, Reaction, Explainer, Kể case…).
    - topic: một trong các nhóm cho sẵn.
    - priority: 0 = Cao (đang lên mạnh và rất hợp kênh), 1 = Vừa, 2 = Thấp.

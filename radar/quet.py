@@ -35,8 +35,12 @@ def load_state():
     return {}
 
 
+UA = "Mozilla/5.0 (compatible; drlizzi-radar/1.0)"  # Cloudflare của TikNeuron chặn User-Agent mặc định "Python-urllib"
+
+
 def get(url, headers=None, timeout=30):
-    req = urllib.request.Request(url, headers=headers or {"Accept": "application/json"})
+    h = {"Accept": "application/json", "User-Agent": UA, **(headers or {})}
+    req = urllib.request.Request(url, headers=h)
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return json.loads(r.read().decode("utf-8"))
 
@@ -122,7 +126,8 @@ def trends():
         log("Bỏ qua Google Trends: chưa cài pytrends"); return []
     out = []
     try:
-        py = TrendReq(hl="vi-VN", tz=-420, timeout=(10, 25), retries=1, backoff_factor=1)
+        # không truyền retries/backoff_factor: pytrends 4.9 dùng tham số cũ 'method_whitelist' mà urllib3 2.x đã bỏ
+        py = TrendReq(hl="vi-VN", tz=-420, timeout=(10, 25))
         kws = CFG["trends_vi"]
         for i in range(0, len(kws), 5):
             py.build_payload(kws[i:i + 5], timeframe="now 7-d", geo="VN")

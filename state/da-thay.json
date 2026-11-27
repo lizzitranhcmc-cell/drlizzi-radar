@@ -3,7 +3,7 @@
  "tiktok": {
   "credits_used": 0,
   "kw_index": 0,
-  "stopped": true,
+  "stopped": false,
   "last": ""
  },
  "videos": [

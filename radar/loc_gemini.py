@@ -71,12 +71,16 @@ VIDEO ĐANG ĐƯỢC XEM NHIỀU (14 ngày gần đây, VN và nước ngoài):
 TỪ KHÓA ĐANG TĂNG TRÊN GOOGLE Ở VN:
 {json.dumps(c.get('trends', []), ensure_ascii=False)}
 
+CÂU HỎI THẬT TRONG BÌNH LUẬN (q = câu hỏi, likes = lượt thích, replies = lượt trả lời, repeat = số lần câu này xuất hiện, video = video chứa bình luận). Đây là nỗi lo thật của khách hàng, quý hơn tiêu đề video:
+{json.dumps([{k: x.get(k) for k in ('q', 'likes', 'replies', 'repeat', 'lang', 'video', 'url') if x.get(k) is not None} for x in c.get('questions', [])], ensure_ascii=False)}
+
 Ý TƯỞNG ĐÃ ĐƯA RA GẦN ĐÂY (không lặp lại, kể cả cùng ý khác chữ):
 {json.dumps(recent, ensure_ascii=False)}
 
 NHIỆM VỤ:
 1. Bỏ mọi thứ không thuộc chủ đề kênh (DIY, mẹo trang điểm, giải trí, sản phẩm không liên quan da/tóc).
 2. Gom theo VẤN ĐỀ người xem đang quan tâm (một ý tưởng có thể dựa trên nhiều video, cả VN lẫn nước ngoài).
+   Đọc kỹ phần CÂU HỎI THẬT: gom các câu hỏi cùng ý (nhiều người hỏi, nhiều lượt thích là tín hiệu mạnh). Ít nhất 4 ý tưởng phải xuất phát từ câu hỏi thật; với các ý này, format thường hợp là "Trả lời bình luận", why phải trích nguyên văn một câu hỏi tiêu biểu trong ngoặc kép và ghi số câu tương tự hoặc số lượt thích, source ghi thêm "Bình luận".
 3. Viết 8 đến 12 ý tưởng bằng tiếng Việt, ưu tiên chủ đề gắn với thủ thuật và 4 dịch vụ chủ lực.
    - idea: tiêu đề dạng hook, xưng "mình – bạn" nếu cần, dưới 15 chữ, không hứa kết quả, không "dứt điểm/vĩnh viễn/tốt nhất".
    - why: 1–2 câu vì sao đáng làm. BẮT BUỘC có ít nhất một con số cụ thể chép đúng từ dữ liệu (ví dụ "52.000 view/ngày", "+250% tìm kiếm"), và nếu có thì trích một câu hỏi thật trong bình luận. Không viết chung chung kiểu "hàng trăm nghìn", không bịa số.
@@ -119,13 +123,14 @@ def main():
             print("Gemini lỗi:", str(e)[:300])
             ideas, status = fallback(c, "Gemini lỗi"), "chua-loc"
     # chỉ giữ link có thật trong dữ liệu
-    real = {v["url"] for v in c["videos"]}
+    real = {v["url"] for v in c["videos"]} | {x.get("url") for x in c.get("questions", []) if x.get("url")}
     for i in ideas:
         i["links"] = [l for l in i.get("links", []) if l in real][:3]
         i["priority"] = min(2, max(0, int(i.get("priority", 1))))
     # bỏ câu trích dẫn không có thật trong dữ liệu (Gemini đôi khi tự "bịa" câu hỏi của người xem)
     corpus = " ".join([v.get("title", "") + " " + " ".join(v.get("questions", [])) for v in c["videos"]] +
-                      [" ".join(q for q, _ in t.get("rising", [])) for t in c.get("trends", [])]).lower()
+                      [" ".join(q for q, _ in t.get("rising", [])) for t in c.get("trends", [])] +
+                      [x.get("q", "") for x in c.get("questions", [])]).lower()
     for i in ideas:
         why = i.get("why", "")
         for q in re.findall(r"['\"“‘]([^'\"”’]{12,})['\"”’]", why):

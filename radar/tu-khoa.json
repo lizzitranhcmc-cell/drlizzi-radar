@@ -66,13 +66,15 @@
   "nâng cơ"
  ],
  "gioi_han": {
-  "youtube_luot_tim_moi_ngay": 60,
+  "youtube_luot_tim_moi_ngay": 45,
   "ket_qua_moi_luot": 50,
   "so_ngay_gan_day": 14,
   "view_toi_thieu_vi": 5000,
   "view_toi_thieu_en": 50000,
-  "video_lay_binh_luan": 30,
+  "video_lay_binh_luan": 150,
   "ung_vien_toi_da": 110,
-  "tiktok_credit_toi_da": 18
+  "tiktok_credit_toi_da": 18,
+  "cau_hoi_moi_video": 15,
+  "cau_hoi_toi_da": 150
  }
 }

@@ -104,15 +104,37 @@ def youtube(state, seen):
     vids = [v for v in found.values()
             if v.get("views", 0) >= (lim["view_toi_thieu_vi"] if v["lang"] == "vi" else lim["view_toi_thieu_en"])]
     vids.sort(key=lambda v: v["views_per_day"], reverse=True)
+    # Bình luận rẻ (1 đơn vị/lượt) nên lấy rộng: mỗi video tối đa 100 bình luận liên quan nhất.
+    pool = []
     for v in vids[:lim["video_lay_binh_luan"]]:
         try:
-            res = yt("commentThreads", part="snippet", videoId=v["id"], order="relevance", maxResults=40,
+            res = yt("commentThreads", part="snippet", videoId=v["id"], order="relevance", maxResults=100,
                      textFormat="plainText")
-            qs = [c["snippet"]["topLevelComment"]["snippet"]["textDisplay"][:200] for c in res.get("items", [])]
-            v["questions"] = [q for q in qs if QWORDS.search(q)][:5]
+            qs = []
+            for c in res.get("items", []):
+                s = c["snippet"]["topLevelComment"]["snippet"]
+                txt = " ".join(s.get("textDisplay", "").split())[:200]
+                if txt and QWORDS.search(txt):
+                    qs.append({"q": txt, "likes": int(s.get("likeCount", 0)), "replies": int(c["snippet"].get("totalReplyCount", 0))})
+            qs.sort(key=lambda x: x["likes"] + 2 * x["replies"], reverse=True)
+            v["questions"] = [x["q"] for x in qs[:5]]
+            for x in qs[:lim.get("cau_hoi_moi_video", 15)]:
+                pool.append({**x, "lang": v["lang"], "kw": v["kw"], "video": v["title"][:80], "url": v["url"]})
         except urllib.error.HTTPError:
             v["questions"] = []  # bình luận bị tắt
-    log(f"YouTube: {len(pick)} lượt tìm, {len(found)} video mới, {len(vids)} đạt ngưỡng view")
+    # Kho câu hỏi chung: bỏ trùng, ưu tiên câu được thích và trả lời nhiều.
+    seen_q, uniq = {}, []
+    for x in sorted(pool, key=lambda x: x["likes"] + 2 * x["replies"], reverse=True):
+        key = re.sub(r"\W+", " ", x["q"].lower()).strip()[:80]
+        if not key:
+            continue
+        if key in seen_q:
+            seen_q[key]["repeat"] = seen_q[key].get("repeat", 1) + 1  # cùng câu hỏi ở nhiều video
+        else:
+            seen_q[key] = x; uniq.append(x)
+    state["_questions"] = uniq[:lim.get("cau_hoi_toi_da", 150)]
+    log(f"YouTube: {len(pick)} lượt tìm, {len(found)} video mới, {len(vids)} đạt ngưỡng view, "
+        f"{len(pool)} câu hỏi trong bình luận ({len(uniq)} câu khác nhau)")
     return vids
 
 
@@ -200,7 +222,9 @@ def main():
     tr = trends()
     tk = tiktok(state, seen)
     cap = CFG["gioi_han"]["ung_vien_toi_da"]
-    cands = {"date": datetime.now(VN).strftime("%Y-%m-%d"), "videos": (yt_v[:cap] + tk)[:cap + 15], "trends": tr}
+    questions = state.pop("_questions", [])
+    cands = {"date": datetime.now(VN).strftime("%Y-%m-%d"), "videos": (yt_v[:cap] + tk)[:cap + 15], "trends": tr,
+             "questions": questions}
     OUT.mkdir(exist_ok=True)
     (OUT / "ung-vien.json").write_text(json.dumps(cands, ensure_ascii=False, indent=1), encoding="utf-8")
     (OUT / "state-moi.json").write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")

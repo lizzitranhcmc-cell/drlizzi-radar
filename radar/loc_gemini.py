@@ -7,7 +7,7 @@
 Hết hạn mức Gemini (hoặc lỗi) thì vẫn ghi danh sách thô, đánh dấu "chưa lọc".
 --dry: không gọi Gemini, tạo ý tưởng giả từ ứng viên để chạy thử luồng.
 """
-import json, os, sys, time, urllib.error, urllib.request
+import json, os, re, sys, time, urllib.error, urllib.request
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -123,6 +123,15 @@ def main():
     for i in ideas:
         i["links"] = [l for l in i.get("links", []) if l in real][:3]
         i["priority"] = min(2, max(0, int(i.get("priority", 1))))
+    # bỏ câu trích dẫn không có thật trong dữ liệu (Gemini đôi khi tự "bịa" câu hỏi của người xem)
+    corpus = " ".join([v.get("title", "") + " " + " ".join(v.get("questions", [])) for v in c["videos"]] +
+                      [" ".join(q for q, _ in t.get("rising", [])) for t in c.get("trends", [])]).lower()
+    for i in ideas:
+        why = i.get("why", "")
+        for q in re.findall(r"['\"“‘]([^'\"”’]{12,})['\"”’]", why):
+            if q.lower().strip(" ?.!") not in corpus:
+                why = re.sub(r"[^.!?]*['\"“‘]" + re.escape(q) + r"['\"”’][^.!?]*[.!?]?", "", why).strip()
+        i["why"] = why
     seen_titles = {t.lower() for t in recent}
     ideas = [i for i in ideas if i["idea"].lower() not in seen_titles]
 
